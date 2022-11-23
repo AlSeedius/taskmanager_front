@@ -1,0 +1,21 @@
+.Row{
+    display: flex;
+    padding: 6px;
+}
+
+.Item{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap-reverse;
+}
+
+.text{
+    padding-left: 15px;
+}
+
+.delete_button{
+    overflow-y: auto;
+    margin-left: auto;
+    align-self: center;
+    justify-self: flex-end;
+}
