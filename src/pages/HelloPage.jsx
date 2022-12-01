@@ -6,7 +6,6 @@ const HelloPage = () => {
     return (
         <div>
             <h1>Заглушка</h1>
-            <Board/>
         </div>
     );
 };

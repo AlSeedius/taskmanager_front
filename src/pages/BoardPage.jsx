@@ -1,5 +1,6 @@
 import React from 'react';
 import Board from 'react-trello'
+import './Board.css'
 
 const BoardPage = () => {
     const data = {
@@ -27,6 +28,7 @@ const BoardPage = () => {
     return (
         <div>
             <Board
+                className="board"
                 data={data}
                 canAddLanes
                 editable
